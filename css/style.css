@@ -1,0 +1,387 @@
+* {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+main {
+
+}
+
+.intromain {
+  margin-left: 7em;
+  margin-right: 7em;
+  padding-bottom: 5em;
+}
+
+.mheader {
+  background-image: url("../img/sanliurfa-sehir-rehberi-urfa-kalesi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 433px;
+  padding-bottom: 433px;
+  color:white;
+  text-align: right;
+  padding-right: 10em;
+  line-height: 1em;
+}
+
+.mheader h1 {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.mheader h2 {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.titel-container {
+  position: sticky;
+  bottom: -4.7em;
+  margin: auto;
+  width: 100%;
+  background-color: white;
+  padding: 0.1em;
+  line-height: 0.1em;
+  z-index: 100;
+  transition: top 0.3s ease;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+.titel {
+  margin: auto;
+  width: 25%;
+  padding-bottom: 1em;
+  border-bottom: 0.1rem solid black;
+  text-align: center;
+  background-color: white;
+  letter-spacing: 0.1em;
+}
+.autor {
+  display: flex;
+  gap:1em;
+  margin: auto;
+  padding: 20px;
+  width: 23%;
+  text-align: center;
+  background-color: white;
+  letter-spacing: 0.1em;
+}
+
+.intro {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  display: flex;
+  gap: 5em;
+}
+
+.textintro {
+  margin-top: 6em;
+  letter-spacing: 0.05em;
+  width: 50%;
+}
+
+.lead {
+  margin: auto;
+  padding-left:10em;
+  padding-right: 10em;
+  line-height: 1.5em;
+}
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 101vh;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+aside {
+  margin: auto;
+  width: 60%;
+}
+
+
+.discoveryimage {
+  display: flex;
+  gap: 2em;
+  padding: 2em;
+  justify-content: center;
+}
+
+.discoverytitel {
+  display:flex;
+  margin-top: 20px;
+}
+
+.discoverytitel h1 {
+  font-family: "Times New Roman";
+}
+
+.discoverytitel img {
+  width: 3.700rem;
+  height: 3.700rem;
+  padding-top: 0.9em;
+  padding-right: 1em;
+  margin-right: 0.600rem;
+}
+
+.discoveryimage img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container p {
+  margin-top: 10px;
+}
+
+.footertext {
+  background-image: url("../img/dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 440px;
+  padding-bottom: 433px;
+  color:white;
+  text-align: center;
+  padding-right: 10em;
+  line-height: 1em;
+}
+
+.footertext h2 {
+  font-weight: bold;
+}
+
+.footertext h3 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.email-container {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+.input-group {
+  display: flex;
+  margin-top: 10px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1em;
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --font-size-xl: 5vw;
+    --font-size-600: 1.0rem;
+    --font-size-500: 1.25rem;
+    --font-size-400: 1rem;
+    --font-size-200: 0.85rem;
+  }
+  .mheader {
+    background-image: url("../img/sanliurfa-sehir-rehberi-urfa-kalesi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color:white;
+    text-align: right;
+    padding-right: 10em;
+    line-height: 1em;
+  }
+  .mheader h1 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .mheader h2 {
+    font-weight: normal;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .mheader {
+    padding: 150px 1em;
+  }
+
+  .mheader h1 {
+    font-size: 2em;
+  }
+
+  .mheader h2 {
+    font-size: 1em;
+  }
+
+  .titel {
+    width: 90%;
+  }
+
+  .autor {
+    width: 100%;
+  }
+
+  .intro {
+    gap: 1em;
+  }
+
+  .textintro {
+    margin-top: 1em;
+  }
+
+  .video-container {
+    height: 40vh;
+  }
+
+  .discoveryimage {
+    gap: 1em;
+    padding: 1em;
+  }
+
+  .email-container {
+    width: 100%;
+  }
+
+  .input-group {
+    gap: 1em;
+  }
+
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mheader {
+    padding: 100px 1em;
+  }
+
+  .mheader h1 {
+    font-size: 1.5em;
+  }
+
+  .mheader h2 {
+    font-size: 0.8em;
+
+  .titel {
+    width: 100%;
+  }
+
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+    .intromain {
+      margin: 0 0.2em;
+    }
+
+  .textintro {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .lead {
+    padding: 0;
+  }
+
+  .video-container {
+    height: 30vh;
+  }
+
+  .discoveryimage {
+    gap: 0.5em;
+  }
+
+  .discoverytitel {
+    flex-direction: column;
+  }
+
+  .discoverytitel img {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .discoveryimage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .footertext {
+    padding: 100px 1em;
+  }
+
+  .email-container {
+    width: 100%;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  input[type="email"] {
+    border-radius: 5px;
+    margin-bottom: 1em;
+  }
+
+  button {
+    border-radius: 5px;
+  }
+}
+
+
